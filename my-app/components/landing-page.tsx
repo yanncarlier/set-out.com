@@ -58,7 +58,7 @@ export function LandingPage() {
               </div>
               <div className="bg-white rounded-lg shadow-md p-6">
                 <h3 className="text-xl font-semibold mb-4">Professional Skills Training</h3>
-                <p className="text-gray-600">Enhance your workforce's capabilities with targeted training in essential professional skills.</p>
+                <p className="text-gray-600">Enhance your workforce capabilities with targeted training in essential professional skills.</p>
               </div>
               <div className="bg-white rounded-lg shadow-md p-6">
                 <h3 className="text-xl font-semibold mb-4">Technical services</h3>
