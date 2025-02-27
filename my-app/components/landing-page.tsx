@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import Footer from "@/components/footer";
 export function LandingPage() {
   return (
