@@ -12,7 +12,7 @@ export function LandingPage() {
             alt="SET-OUT Logo"
             width={200}
             height={200}
-            className="h-auto w-auto"
+            className="h-auto w-auto" 
           />
           <nav>
             <ul className="flex space-x-4">
@@ -63,7 +63,7 @@ export function LandingPage() {
                 </h3>
                 <p className="text-gray-600">
                   Our team of experienced professionals is dedicated to
-                  delivering high-quality, innovative training that drives real
+                  delivering high-quality, innovative services and training that drives real
                   results and lasting change.
                 </p>
               </div>
@@ -85,79 +85,41 @@ export function LandingPage() {
               Our Services
             </h2>
             <div className="grid md:grid-cols-4 gap-8">
-              <div className="bg-white rounded-lg shadow-md p-6">
+               <div className="bg-white rounded-lg shadow-md p-6">
                 <h3 className="text-xl font-semibold mb-4">
-                  Leadership Development
-                </h3>
+                  Import export and commerce of logical products and equipment (hardware and software)
+                   </h3>
                 <p className="text-gray-600">
-                  Empower your leaders with the skills and knowledge they need
-                  to drive success and inspire their teams.
-                </p>
-              </div>
-              <div className="bg-white rounded-lg shadow-md p-6">
-                <h3 className="text-xl font-semibold mb-4">Team Building</h3>
-                <p className="text-gray-600">
-                  Foster collaboration, communication, and cohesion within your
-                  teams to boost productivity and engagement.
-                </p>
-              </div>
-              <div className="bg-white rounded-lg shadow-md p-6">
-                <h3 className="text-xl font-semibold mb-4">
-                  Professional Skills Training
-                </h3>
-                <p className="text-gray-600">
-                  Enhance your workforce capabilities with targeted training in
-                  essential professional skills.
-                </p>
-              </div>
-              <div className="bg-white rounded-lg shadow-md p-6">
-                <h3 className="text-xl font-semibold mb-4">
-                  Technical services
-                </h3>
-                <p className="text-gray-600">
-                  Provide cutting-edge technical Infrastructure, development and
-                  support to keep your team at the forefront of technological
-                  advancements.
-                </p>
-              </div>
-              {/* </div> */}
-              {/* </div> */}
-              {/* </section>
-
-        <section id="services" className="bg-gray-50 py-16"> */}
-              {/* <div className="container mx-auto px-4"> */}
-              {/* <h2 className="text-3xl font-bold mb-8 text-center">
-              Our Services
-            </h2> */}
-              {/* <div className="grid md:grid-cols-4 gap-8"> */}
-              <div className="bg-white rounded-lg shadow-md p-6">
-                <h3 className="text-xl font-semibold mb-4">
-                  Import, Export & Commerce
-                </h3>
-                <p className="text-gray-600">
+                  
                   Access cutting-edge hardware and software through our global
                   import-export solutions, tailored to your business needs.
+            
+              
                 </p>
               </div>
-              <div className="bg-white rounded-lg shadow-md p-6">
+                       <div className="bg-white rounded-lg shadow-md p-6">
                 <h3 className="text-xl font-semibold mb-4">
-                  Consultancy & Analysis
+                  Consultancy and services in electrical engineering, information technology and communication
                 </h3>
                 <p className="text-gray-600">
-                  Optimize your systems engineering, IT, and communication
+                  Optimize your systems engineering, IT and communication
                   processes with our expert consultancy services.
+
+              
+               
                 </p>
               </div>
               <div className="bg-white rounded-lg shadow-md p-6">
                 <h3 className="text-xl font-semibold mb-4">
-                  IT Subcontracting
+                  Subcontracting in information technology
                 </h3>
                 <p className="text-gray-600">
                   Scale effortlessly with our flexible IT subcontracting—expert
                   support without the overhead.
+                
                 </p>
               </div>
-              <div className="bg-white rounded-lg shadow-md p-6">
+                            <div className="bg-white rounded-lg shadow-md p-6">
                 <h3 className="text-xl font-semibold mb-4">
                   Project Management
                 </h3>
@@ -166,16 +128,25 @@ export function LandingPage() {
                   management that delivers on time and budget.
                 </p>
               </div>
-              <div className="bg-white rounded-lg shadow-md p-6">
+                            <div className="bg-white rounded-lg shadow-md p-6">
                 <h3 className="text-xl font-semibold mb-4">
                   Training & Formation
                 </h3>
                 <p className="text-gray-600">
                   Equip your team with the skills to excel through our tailored
-                  training programs.
+                  training programs. <br /><br />
+                    - Leadership Development.
+                
+                  
+                  <br />
+                   - Team Building
+                  
+                  <br />
+
+                  - Professional Skills
                 </p>
               </div>
-              <div className="bg-white rounded-lg shadow-md p-6">
+               <div className="bg-white rounded-lg shadow-md p-6">
                 <h3 className="text-xl font-semibold mb-4">
                   Digital Marketing
                 </h3>
@@ -184,6 +155,8 @@ export function LandingPage() {
                   and convert your audience.
                 </p>
               </div>
+
+   
               <div className="bg-white rounded-lg shadow-md p-6">
                 <h3 className="text-xl font-semibold mb-4">
                   Software Development
@@ -193,15 +166,24 @@ export function LandingPage() {
                   your unique vision.
                 </p>
               </div>
-              <div className="bg-white rounded-lg shadow-md p-6">
+               <div className="bg-white rounded-lg shadow-md p-6">
                 <h3 className="text-xl font-semibold mb-4">
                   Technical Assistance
                 </h3>
                 <p className="text-gray-600">
-                  Keep systems running smoothly with fast, reliable technical
-                  support when you need it.
+           
+                    Technical services
+           
+                  Provide cutting-edge technical Infrastructure, development and
+                  support to keep your team at the forefront of technological
+                  advancements.
                 </p>
               </div>
+           
+   
+
+
+ 
             </div>
           </div>
         </section>
@@ -209,12 +191,9 @@ export function LandingPage() {
         <section id="contact" className="py-16">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-8">Contact Us</h2>
-            {/* <p className="text-xl mb-8">
-              Ready to take your organization to the next level? Get in touch
-              with us today!
-            </p> */}
+      
             {/* <Button size="lg">Contact at set-out dot com </Button> */}
-            <section id="about" className="py-16">
+            <section id="about" className="">
               <p className="text-gray-600">
                 SET-OUT INTERNATIONAL COMPANY LIMITED <br />
 
@@ -228,8 +207,8 @@ n.º 336, Cheng Feng Commercial Building,   <br />
 
 
 Contact:   <br />
-Phone: (853) 28389275   <br />   <br />
-
+Phone: (853) 28389275   <br />   
+Email: Contact at set-out dot com <br /><br />
 
 
                 {/* Avenida Comercial de Macau, No. 5 EDF, FIT Centre, 5 Andar,
@@ -237,9 +216,9 @@ Phone: (853) 28389275   <br />   <br />
                 启程国际有限公司 澳门商业大马路5地段澳门财富中心五楼 <br />
                 Phone: +853 82 9467 00 Fax: +853 82 9467 01 <br /> */}
                 Business Hours: Monday - Friday: 9:00AM - 5:00PM <br />
-                Email: Contact at set-out dot com <br />
-                <br />
-                Registration: 44438(SO) <br />
+                
+      
+                Registration: 44438(SO) <br /><br />
                 Company object: 1 - Import export and commerce of logical
                 products and equipment (hardware and software); 2 - Consultancy
                 and service analysis in electrical engineering, information
