@@ -217,10 +217,25 @@ export function LandingPage() {
             <section id="about" className="py-16">
               <p className="text-gray-600">
                 SET-OUT INTERNATIONAL COMPANY LIMITED <br />
-                Avenida Comercial de Macau, No. 5 EDF, FIT Centre, 5 Andar,
+
+
+                Adress: Macau Office   <br />
+Alameda Dr. Carlos D’ Assumpção,   <br />
+n.º 336, Cheng Feng Commercial Building,   <br />
+17 Floor, “O”, Macau   <br />
+澳門宋玉生廣場336   <br />
+號誠豐商業中心17樓O座   <br />   <br />
+
+
+Contact:   <br />
+Phone: (853) 28389275   <br />   <br />
+
+
+
+                {/* Avenida Comercial de Macau, No. 5 EDF, FIT Centre, 5 Andar,
                 <br />
                 启程国际有限公司 澳门商业大马路5地段澳门财富中心五楼 <br />
-                Phone: +853 82 9467 00 Fax: +853 82 9467 01 <br />
+                Phone: +853 82 9467 00 Fax: +853 82 9467 01 <br /> */}
                 Business Hours: Monday - Friday: 9:00AM - 5:00PM <br />
                 Email: Contact at set-out dot com <br />
                 <br />
