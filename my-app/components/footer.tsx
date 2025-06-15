@@ -1,25 +1,20 @@
-import React from "react";
+"use client"
+import { useLanguage } from "@/contexts/language-context"
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear(); // Dynamically gets the current year
+  const { t } = useLanguage()
+  const currentYear = new Date().getFullYear()
 
   return (
     <footer className="bg-gray-800 text-white py-6">
       <div className="container mx-auto px-4 text-center">
         <p className="text-sm">
-          &copy; {currentYear} SET-OUT INTERNATIONAL COMPANY LIMITED. <br /> All
-          rights reserved.
+          &copy; {currentYear} {t("companyName")}. <br />
+          {t("allRightsReserved")}
         </p>
-        {/* <p className="text-sm mt-2">
-          {new Date().toLocaleDateString("en-US", {
-            year: "numeric",
-            month: "long",
-            day: "numeric",
-          })}
-        </p> */}
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
