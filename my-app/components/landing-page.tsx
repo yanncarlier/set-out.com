@@ -11,7 +11,7 @@ export function LandingPage() {
     <div className="min-h-screen bg-gray-100">
       <header className="bg-white shadow-sm">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <Image src="/logo.jpeg" alt="SET-OUT Logo" width={200} height={200} className="h-auto w-auto" />
+          <Image src="/logo.jpeg" alt="SET-OUT Logo" width={200} height={200} className="h-24 w-auto" />
           <div className="flex items-center space-x-6">
             <nav>
               <ul className="flex space-x-4">
@@ -63,7 +63,7 @@ export function LandingPage() {
         <section id="services" className="bg-gray-50 py-16">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8 text-center">{t("ourServices")}</h2>
-            <div className="grid md:grid-cols-4 gap-8">
+            <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-8">
               <div className="bg-white rounded-lg shadow-md p-6">
                 <h3 className="text-xl font-semibold mb-4">{t("importExport")}</h3>
                 <p className="text-gray-600">{t("importExportDesc")}</p>
@@ -124,10 +124,7 @@ export function LandingPage() {
                 {t("addressLine1")} <br />
                 {t("addressLine2")} <br />
                 {t("addressLine3")} <br />
-                澳門宋玉生廣場336 <br />
-                號誠豐商業中心17樓O座 <br />
                 <br />
-                Contact: <br />
                 {t("phone")} <br />
                 {t("email")} <br />
                 <br />
